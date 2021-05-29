@@ -7,7 +7,7 @@ String s="Souradeep";
 String rev="";
 char[] charArray = s.toCharArray();
 for (int i = charArray.length-1; i >=0; i--) {
-	rev=rev+charArray[i];
+	rev= rev+ charArray[i];
 }
 System.out.println(rev);
 	}
