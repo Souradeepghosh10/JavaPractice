@@ -8,6 +8,8 @@ public static void main(String[] args) {
 	int parseInt = Integer.parseInt("45");
 	System.out.println(parseInt);
 	System.out.println(Character.isDigit(arr[0]));
+	boolean upperCase = Character.isUpperCase(arr[0]);
+	System.out.println(upperCase);
 	int compare = Character.compare(arr[0], arr[1]);
 	System.out.println(compare);
 }
